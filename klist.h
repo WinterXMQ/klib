@@ -132,4 +132,6 @@
 #define kl_pushp(name, kl) kl_pushp_##name(kl)
 #define kl_shift(name, kl, d) kl_shift_##name(kl, d)
 
+#define kl_size(kl) ((kl)->size)
+
 #endif
